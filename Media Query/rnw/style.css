@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+.header-1 {
+    height: 40px;
+    background-color: red;
+}
+
+
+.header-2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.header-2 .center-header {
+    /* background-color: antiquewhite; */
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-menus {
+    display: flex;
+    gap: 20px;
+}
+
+.section-1 {
+    background-color: rgb(23, 23, 76);
+    height: auto;
+    /* height: 630px; */
+    width: 100%;
+    /* object-fit: cover; */
+    /* 334px less --> our website is not available for this dimension/size*/
+}
+
+.section-1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header-buttons {
+    display: none;
+}
+
+.section-2 {
+
+    background-color: rgb(23, 23, 76);
+    height: 181px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.about-classes {
+    height: 100%;
+    /* background-color: antiquewhite; */
+    width: 1220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 0 16px; */
+}
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+
+.about-box h1 {
+    font-weight: 500;
+}
+
+.ri-user-line {
+    font-size: 1.5rem;
+}
+
+
+
+.section-3 {
+    background-color: antiquewhite;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* height: 400px; */
+}
+
+.courses {
+    /* background-color: blueviolet; */
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(6, 1fr); */
+    /* grid-template-rows: repeat(2, 220px); */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 1220px;
+}
+
+.course-box {
+    /* box-sizing: border-box; */
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    /* aspect-ratio: 1/1; */
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.course-box p {
+    font-size: 24px;
+}
+
+.section-4 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .mac,
+.ad-video {
+    width: 100%;
+}
+
+.ad-video {
+    height: 80%;
+    z-index: -20;
+    position: absolute;
+    left: 0;
+}
+
+.container-info {
+    width: 60%;
+}
+
+.container-ad {
+    width: 40%;
+    position: relative;
+}
+
+.section-5 {
+    height: 400px;
+}
+
+
+
+
+
